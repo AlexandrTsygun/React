@@ -1,0 +1,19 @@
+/* .buttonColor {
+  width: 50px;
+  margin-left: 10px;
+  padding: 10px 0;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: silver;
+} */
+.wrap {
+  margin: 50px auto;
+  width: 280px;
+  padding: 15px;
+  background-color: silver;
+  border-radius: 16px;
+  text-align: center;
+}
+.h2 {
+
+}
