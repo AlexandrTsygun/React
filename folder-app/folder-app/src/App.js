@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { Buttons, Cards } from './components/Button/Button';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Buttons buttonText="Find Out More"/>
+
+      <div className='appCards'>
+
+        <Cards
+          title="– ROBO –"
+          firstCardPrice="15.000 ₽"
+          secondCardPrice="10.000 ₽"
+          description="УМК по робототехнике"
+          buttonText="Оставить заявку"
+        />
+
+      </div>
     </div>
   );
 }
