@@ -1,23 +1,36 @@
 import './App.css';
-import { Buttons, Cards } from './components/Button/Button';
+import { Button } from './components/Button/Button';
+import { Card } from './components/Card/Card';
 
 function App() {
   return (
+
     <div className="App">
-      <Buttons buttonText="Find Out More"/>
 
-      <div className='appCards'>
+          <Button buttonText="Find Out More"/>
+          <Button buttonText="Find Out More"/>
+          <Button buttonText="Find Out More"/>
 
-        <Cards
-          title="– ROBO –"
-          firstCardPrice="15.000 ₽"
-          secondCardPrice="10.000 ₽"
-          description="УМК по робототехнике"
-          buttonText="Оставить заявку"
-        />
+      <div className='wrapCards'>
+
+          <Card
+              title="– ROBO –"
+              price="10.000 ₽"
+              description="УМК по робототехнике"
+              buttonText="Оставить заявку"
+          />
+
+          <Card
+              title="– ROBO –"
+              price="15.000 ₽"
+              description="УМК по робототехнике"
+              buttonText="Оставить заявку"
+          />
 
       </div>
+
     </div>
+
   );
 }
 
