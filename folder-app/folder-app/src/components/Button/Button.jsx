@@ -1,11 +1,11 @@
 import './Button.scss'
 
-export const Button = ({buttonScss, buttonText}) => {
+export const Button = ({ buttonText }) => {
   return (
 
     <div>
 
-      <button className="buttonScss">{buttonScss}
+      <button className="buttonScss">
         <span className='buttonText'>{buttonText}</span>
         </button>
 
