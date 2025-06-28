@@ -1,0 +1,57 @@
+.inputWrap {
+  max-width: 400px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.input-item {
+  margin-bottom: 15px;
+}
+
+.input-item label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-item input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid silver;
+  border-radius: 6px;
+}
+
+.focus {
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+input.active {
+  box-shadow: 0 0 5px green;
+}
+
+.disabled {
+  background-color: gainsboro;
+  cursor: not-allowed;
+}
+
+input.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 18px;
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(80, 20, 155, 0.5);
+}
