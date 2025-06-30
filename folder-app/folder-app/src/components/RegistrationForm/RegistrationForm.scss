@@ -1,0 +1,71 @@
+.registration-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 200px 100px;
+
+  .form-info {
+    margin-top: 32px;
+  }
+
+  .wrap-input {
+    margin-top: 32px;
+    width: 100%;
+  }
+
+.wrap-button {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+  .login-link {
+    text-align: center;
+    margin-top: 154px;
+  }
+
+  .title-form {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 8px;
+  }
+
+  .desc-form {
+    font-size: 12px;
+    opacity: 0.8;
+  }
+}
+
+.registration-form.light {
+  // background: white;
+
+  .login-link a {
+    // color: #00EFFF;
+  }
+}
+
+.registration-form.dark {
+
+
+  .login-link {
+    color: white;
+  }
+
+  .title-form {
+    color: white;
+  }
+
+  .desc-form {
+    opacity: 80%;
+    color: white;
+  }
+  .login-link a {
+    color: #00EFFF;
+  }
+}
+
+
