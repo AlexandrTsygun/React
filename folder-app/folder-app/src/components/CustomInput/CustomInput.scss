@@ -1,0 +1,40 @@
+.input-container {
+  width: 100%;
+  margin-bottom: 20px;
+
+  .input-field {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    transition: 0.5s ;
+
+    &.light {
+      border-bottom: 1px solid silver;
+
+      &:focus {
+        border-bottom: 1px solid black;
+
+        &::placeholder {
+        color: black;
+        }
+      }
+
+    }
+
+    &.dark {
+      color: white;
+      border-bottom: 1px solid silver;
+
+      &:focus {
+        border-bottom: 1px solid white;
+
+          &::placeholder {
+          color: white;
+        }
+      }
+    }
+  }
+}
