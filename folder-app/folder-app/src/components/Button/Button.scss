@@ -1,0 +1,21 @@
+.buttonScss:hover {
+  background: rgba(170, 30, 20,100);
+}
+
+.buttonScss:active {
+  background-color: rgba(200, 10, 10, 1);
+}
+
+  .buttonScss{
+  margin-top: 45px;
+  width: 370px;
+  padding: 25px;
+  border: none;
+  background-color: rgba(255, 67, 67, 1);
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  }

@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import { Button } from './components/Button/Button';
+import { Card } from './components/Card/Card';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+          <Button buttonText="Find Out More"/>
+          <Button buttonText="Find Out More"/>
+          <Button buttonText="Find Out More"/>
+
+      <div className='wrapCards'>
+
+          <Card
+              title="– ROBO –"
+              price="10.000 ₽"
+              description="УМК по робототехнике"
+              buttonText="Оставить заявку"
+          />
+
+          <Card
+              title="– ROBO –"
+              price="15.000 ₽"
+              description="УМК по робототехнике"
+              buttonText="Оставить заявку"
+          />
+
+      </div>
+
     </div>
+
   );
 }
 
